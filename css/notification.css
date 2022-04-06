@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ede9f2;
+  }
+  
+ 
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+.topLeft {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.topMiddle {
+
+  display: flex;
+}
+
+.topRight {
+  display: flex;
+  justify-content: space-between;
+}
+  
+  .logoImg > img {
+    width: 30;
+    height: 34px;
+  }
+   
+  .notificationText {
+    color: #214873;
+  }
+  
+  .sideBar {
+    background: #214873;
+    padding: 15px 0 15px 15px;
+    height: 100vh;
+  }
+  
+  .smartLog > img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .topSideBar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .smartLogText {
+    color: #ffffff;
+  }
+  
+  .topIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+  }
+  
+  .navWrapper {
+    display: flex;
+    margin: 0 0 2rem 0;
+    position: relative;
+  }
+  
+  .icons {
+    margin: 0 1rem 0 0;
+  }
+  
+  .icons > img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .dropMenu {
+    display: none;
+  }
+  
+  .toggleMenu {
+    display: block;
+  }
+  
+  .navWrapper {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .downIconArrow,
+  .upIconArrow {
+    position: absolute;
+    right: 3%;
+  }
+  
+  .upIconArrow {
+    display: none;
+  }
+  .dropMenu ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  a li {
+    color: #000;
+  }
+  
+  ul li {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .navWrapper:hover {
+    color: #000;
+    font-weight: bold;
+    background: #ffffff;
+    padding: 3px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .contents {
+    position: relative;
+  }
+  
+  .topSettingsContainer {
+    display: flex;
+    margin-left: -9.6px;
+    margin-top: -26px;
+  }
+  
+  .notifications,
+  .general,
+  .authReg {
+    padding: 5px;
+    background: #03658c;
+    color: #ffffff;
+    width: 12rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .notificationContainer{
+      background: #ffffff;
+      border-radius: 10px;
+  }
+  
+  .updateNotification {
+    background: #03658c;
+    width: 7rem;
+    padding: 4px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .emailNotification {
+    display: flex;
+  }
+  
+  .toggleEmailNotification {
+    width: 3.5rem;
+    height: 1.5rem;
+    background: rgb(167, 165, 165);
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .innerEmailNotification {
+    position: absolute;
+    width: 1.7rem;
+    height: 1.5rem;
+    background: #03658c;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #808080;
+  }
+  
+.notificationStatus{
+  left: 50%;
+}
+  
+.profile{
+  cursor: pointer;
+}
+
+.profileInfo{
+ position: absolute;
+ right: 0.5%;
+ background: #ffffff;
+ z-index: 1;
+ display: none;
+}
+
+.profileInfo a{
+color: #03658C;
+}
+
+.showProfile{
+  display: block;
+}
+
+.announcementPopUp{
+  position: absolute;
+  right: 11%;
+  z-index: 1;
+  background: #ffffff;
+  width: 16rem;
+  display: none;
+}
+
+.smartLogLogo{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.smartLogLogo>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+.headerPop{
+display: flex;
+justify-content: space-between;
+}
+
+.latestAnnouncement{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.viewAllAnnouncement{
+  color: #214873;
+  cursor: pointer;
+}
+
+.announcementBtn{
+  cursor: pointer;
+}
+
+.showAnnouncement{
+  display: block;
+}
+
+
+.sideBarContents{
+  padding-left:1rem ;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 3%;
+  left: 0;
+  background-color: #03658C;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.main {
+  margin-left: 250px;
+  padding: 0px 10px;
+  margin-top: 5rem;
+}
+
+.sideBarBtn{
+  padding-left: 2rem;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media all and (max-width:700px){
+  .notificationContainer{
+    width: 300px;
+  }
+}
+
+@media all and (max-width:420px){
+  .notificationContainer{
+    width: 200px;
+  }
+}
+
+
+@media all and (max-width:620px) {
+  .topMiddle {
+    display: none;
+  }
+
+}
+
+
+@media all and (max-width:768px) {
+  .topMiddle {
+    display: none;
+  }
+
+  .topText {
+    display: none;
+  }
+
+
+  .general,
+  .authReg,
+  .notifications {
+    width: 7rem;
+  }
+
+}
+
+@media all and (max-width:420px){
+  .general,
+  .authReg,
+  .notifications {
+    width: 5.4rem;
+  }
+
+  .authentication,
+  .registration{
+    width: 6.8rem;
+  }
+  .topAuthRegContainer{
+    margin-left: 4px !important;
+  }
+
+}
+
+
+
+@media all and (max-width:1024px){
+  .sidenav{
+      width: 80px;
+  }
+  .main{
+      margin-left: 80px;
+  }
+
+  .sideBarText{
+      display: none;
+  }
+  .topSideBar{
+      display: none;
+  }
+
+  .sideBarBtn{
+      display: block;
+  }
+
+  .showFullSideBar{
+      width: 250px;
+  }
+
+  .showSideBarText{
+      display: block;
+  }
+}
+
+

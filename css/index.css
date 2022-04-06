@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100vh;
+}
+
+
+.col-lg-6.rightContainer {
+    background: #214873;
+}
+
+.col-lg-6.leftContainer {
+    background: #EDE9F2;
+}
+
+.leftContainer,.rightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer{
+    flex-direction: column;
+}
+
+.signInHeader {
+    color: #214873;
+    font-size: 1.5rem;
+}
+
+label {
+    color: #214873;
+}
+
+ #inputPassword,
+#inputEmail {
+    width: 300px;
+} 
+
+.signInBtn {
+    background: #4288A6;
+    padding: 5px;
+    color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.signUpText {
+    color: #4288a6;
+    cursor: pointer;
+}
+
+.topLogoWrapper{
+    display: flex;
+    column-gap: 2em;
+    
+}
+
+.logoText{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.welcomeHeader{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.welcomeText{
+    color: #ffffff;
+}
+
+.circles{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.biggestCircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #ffff;
+    outline-color:#000000 ;
+}
+
+.biggerCircle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ffff;
+    opacity: 0.5;
+}
+
+.bigCircle{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #ffff;
+    opacity: 0.2;
+}
+
+.input{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 65%;
+    right:1%;
+    color: #a39d9d;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media all and (max-width:320px){
+    .logo>img{
+        width: 100px;
+        height: 100px;
+        margin-top: 2rem;
+    }
+}
+
+@media all and (max-width:992px){
+    .signInHeader{
+        text-align: center;
+    }
+}
