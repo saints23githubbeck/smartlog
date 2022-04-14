@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100vh;
+}
+
+
+.col-lg-6.rightContainer {
+    background: #214873;
+}
+
+.col-lg-6.leftContainer {
+    background: #EDE9F2;
+}
+
+.leftContainer,.rightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer{
+    flex-direction: column;
+}
+
+.signUpHeader {
+    color: #214873;
+    font-size: 1.5rem;
+}
+
+label {
+    color: #214873;
+}
+
+.inputs{
+    width: 300px;
+} 
+
+.signUpBtn {
+    background: #4288A6;
+    padding: 5px;
+    color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.signUpText {
+    color: #4288a6;
+    cursor: pointer;
+}
+
+.topLogoWrapper{
+    display: flex;
+    column-gap: 2em;
+    
+}
+
+.logoText{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.welcomeHeader{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.welcomeText{
+    color: #ffffff;
+}
+
+.circles{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.biggestCircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #ffff;
+    outline-color:#000000 ;
+}
+
+.biggerCircle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ffff;
+    opacity: 0.5;
+}
+
+.bigCircle{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #ffff;
+    opacity: 0.2;
+}
+
+.socialIcon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.socialIcon:nth-child(1){
+    color: #4267B2;
+}
+
+.socialIcon:nth-child(2){
+    color: #52A2F4;
+}
+
+.socialIcon:nth-child(3){
+    color: #DE564A;
+}
+
+a{
+    text-decoration: none;
+}
+
+.iconWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+@media all and (max-width:320px){
+    .logo>img{
+        width: 100px;
+        height: 100px;
+        margin-top: 2rem;
+    }
+}
+
+@media all and (max-width:992px){
+    .signUpHeader{
+        text-align: center;
+    }
+}
