@@ -428,8 +428,9 @@ justify-content: space-between;
   }
 
   .showSideBarText{
-      display: block;
-  }
+    display: inline-block;
+}
+
 }
 
 

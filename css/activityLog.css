@@ -377,29 +377,6 @@ justify-content: space-between;
 
 
 
-
-@media all and (max-width:620px){
-    .topMiddle{
-        display: none;
-    }
-}
-
-
-@media all and (max-width:768px){
-    .topMiddle{
-        display: none;
-    }
-}
-
-
-@media all and (max-width:768px){
-    .topMiddle{
-        display: none;
-    }
-}
-
-
-
 @media all and (max-width:1024px){
     .sidenav{
         width: 80px;
@@ -424,6 +401,22 @@ justify-content: space-between;
     }
 
     .showSideBarText{
-        display: block;
+        display: inline-block;
     }
 }
+
+@media all and (max-width:768px){
+    .topMiddle{
+        display: none;
+    }
+}
+
+@media all and (max-width:620px){
+    .topMiddle{
+        display: none;
+    }
+}
+
+
+
+

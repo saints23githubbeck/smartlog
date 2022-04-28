@@ -384,7 +384,7 @@ input[type="date"] {
     }
 
     .showSideBarText{
-        display: block;
+        display: inline-block;
     }
 }
 

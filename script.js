@@ -137,23 +137,29 @@ const fullSideBar = () => {
   const sidenav = document.getElementsByClassName("sidenav")
   const sideBarBtn = document.getElementsByClassName("sideBarBtn")
 
-    console.log(sideBarText)
-    console.log(sideBarBtn)
-    console.log(sidenav)
 
     Array.from(sidenav).forEach((eachSideNav, index) => {
 
      const eachSideBarText= sideBarText[index]
      const eachSideBarBtn = sideBarBtn[index]
 
+     console.log(eachSideBarText)
+
       eachSideBarBtn.addEventListener("click", (e) => {
         e.preventDefault()
         
         eachSideNav.classList.toggle("showFullSideBar")
-        eachSideBarText.classList.toggle("showSideBarText")
-
-        console.log(eachSideBarText)
-        console.log(sideBarText)
+        sideBarText[0].classList.toggle("showSideBarText")
+        sideBarText[1].classList.toggle("showSideBarText")
+        sideBarText[2].classList.toggle("showSideBarText")
+        sideBarText[3].classList.toggle("showSideBarText")
+        sideBarText[4].classList.toggle("showSideBarText")
+        sideBarText[5].classList.toggle("showSideBarText")
+        sideBarText[6].classList.toggle("showSideBarText")
+        sideBarText[7].classList.toggle("showSideBarText")
+        sideBarText[8].classList.toggle("showSideBarText")
+        sideBarText[9].classList.toggle("showSideBarText")
+        sideBarText[10].classList.toggle("showSideBarText")
       })
     })
 

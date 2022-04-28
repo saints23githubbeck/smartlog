@@ -356,8 +356,8 @@ ul li {
   }
 
   .showSideBarText{
-      display: block;
-  }
+    display: inline-block;
+}
 }
 
 

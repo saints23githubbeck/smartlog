@@ -386,23 +386,6 @@ textarea {
     display: none;
   }
   
-  
-
-@media all and (max-width:620px){
-    .topMiddle{
-        display: none;
-    }
-}
-
-
-@media all and (max-width:768px){
-    .topMiddle{
-        display: none;
-    }
-}
-
-
-
 
 @media all and (max-width:1024px){
     .sidenav{
@@ -428,7 +411,26 @@ textarea {
     }
   
     .showSideBarText{
-        display: block;
+        display: inline-block;
     }
   }
   
+
+  @media all and (max-width:768px){
+    .topMiddle{
+        display: none;
+    }
+}
+
+@media all and (max-width:620px){
+    .topMiddle{
+        display: none;
+    }
+}
+
+
+@media all and (max-width:320px) {
+    .createAnnouncementBtn{
+        font-size: 0.8rem;
+    }
+}

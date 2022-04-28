@@ -312,7 +312,7 @@ span .fa-x{
     }
 
     .showSideBarText{
-        display: block;
+        display: inline-block;
     }
 }
 

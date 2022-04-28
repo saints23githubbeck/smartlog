@@ -373,7 +373,8 @@ input{
     }
   
     .showSideBarText{
-        display: block;
+        display: inline-block;
     }
+    
   }
   
